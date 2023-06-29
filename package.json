@@ -9,10 +9,19 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@hookform/resolvers": "^3.1.1",
+    "axios": "^1.4.0",
     "expo": "~48.0.18",
     "expo-status-bar": "~1.4.4",
+    "phosphor-react-native": "^1.1.2",
     "react": "18.2.0",
-    "react-native": "0.71.8"
+    "react-hook-form": "^7.45.0",
+    "react-native": "0.71.8",
+    "react-native-mask-text": "^0.14.1",
+    "react-native-root-toast": "^3.4.1",
+    "react-native-svg": "13.4.0",
+    "yup": "^1.2.0",
+    "react-native-reanimated": "~2.14.4"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",

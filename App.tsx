@@ -1,11 +1,15 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import { Home } from './src/screens/Home';
+import { RootSiblingParent } from 'react-native-root-siblings';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
+      <RootSiblingParent>
+        <Home />
+      </RootSiblingParent>
+      <StatusBar style="light" />
     </View>
   );
 }
@@ -13,7 +17,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#F0F1F5',
     alignItems: 'center',
     justifyContent: 'center',
   },
